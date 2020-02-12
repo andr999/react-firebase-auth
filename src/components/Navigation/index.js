@@ -15,7 +15,7 @@ const Navigation = () => (
 );
 const NavigationAuth = () => (
   <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-      <a class="navbar-brand" href="#">Navbar</a>
+      <a className="navbar-brand" href="#">Navbar</a>
   <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span className="navbar-toggler-icon"></span>
   </button>
@@ -46,7 +46,7 @@ const NavigationAuth = () => (
 );
 const NavigationNonAuth = () => (
   <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-      <a class="navbar-brand" href="#">Navbar</a>
+      <a className="navbar-brand" href="#">Navbar</a>
   <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span className="navbar-toggler-icon"></span>
   </button>
@@ -58,6 +58,9 @@ const NavigationNonAuth = () => (
     </li>
     <li className="nav-item">
       <Link className="nav-link" to={ROUTES.SIGN_IN}>Sign In</Link>
+    </li>
+    <li className="nav-item">
+      <Link className="nav-link" to={ROUTES.NIVO}>Nivo</Link>
     </li>
     </ul>
     </div>
